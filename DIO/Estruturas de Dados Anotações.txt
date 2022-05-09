@@ -1,0 +1,33 @@
+ESTRUTURA DE DADOS
+
+	O que é estrutura de dados = É uma estrutura organizada de dados na memória de um computador ou em qualquer dispositivo de armazenamento, de forma que os dados possam ser utilizados de forma correta Ex: Nuvem, Pen Drive, Computador
+	O algoritmo é responsavel por inserir, excluir, procurar, classificar e ordenar esses dados. Ex: Armário e suas gavetas (Arrays e suas variaveis)
+	
+	Vetores e Matrizes (Arrays) = Estruturas simples que podem auxiliar quando há muitas variaveis do mesmo tipo em um algoritmo.
+	Matriz = Armezena vetores dentro de si
+
+	Registro = Estrutura que fornece um espaço especial para armazenar espaço na memória (É possivel armazenar dados de tipos diferentes) Ex : Caracter, decimal, inteiro em um mesmo ambiente
+	
+	Listas = Armazenam dados de um determinado tipo em uma ordem especifica, diferente das arrays, as listas possuem tamanho ajustavel
+		Existem dois tipos de listas, as ligadas e as duplamente ligadas
+		Lista Ligada : Existe os nós onde cada um dos nós conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior a ele: por isso ele é chamada de listá ligada, pois os nós são amarrados com essa indicação de qual é o proximo nó
+		Lista duplamente ligada : Bidirecionais, e diferente da lista ligada, é possivel "andar para trás nelas", ou seja sendo possivel saber tanto qual elemento havia antes, quando qual elemento há em sua frente.
+
+	Pilha = Serve como uma coleção de elementos, e permite acesso a somente um item de dados armazenado.
+		Tipos de Pilhas: LIFO ou UEPS = (Last in first Now) O primeiro elemento a ser retirado é o ultimo que tiver sido inserido.
+
+				 FIFO ou PEPS =(First in First Now) O primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+	
+	Fila = O elemento removido sempre será o que estiver a mais tempo, no caso o primeiro que foi inserido.
+	
+	Arvore = É uma estrutura de dados que organiza seus elementos de forma hierarquica, onde existe um elemento que fica no topo da arvore, chamado de raiz e existem os elementos subordinados a ele, que são chamados de nós ou folhas, a raiz é sempre localizada no meio
+	
+	Tabela Hash = É uma estrutura de dados especial que associa chaves de pesquisa a valores, nela é utilizado um conceito semelhante ao do array chamado hashing, que possui a função de espalhar aleatoriamente os elementos, gerando assim uma forma não ordenada dentro dessa array.
+		Durante esse processo, é associado valores a chaves, sendo assim facilitando na hora de pesquisar esses valores., semelhante ao conceito de id.
+
+	Grafos = Estrutura que permite programar a relação entre objetos, os objetos são vertices ou "nós" do grafo, os relacionamentos são as arestas.
+		Consegue ter relacionamentos mais complexos com mais possibilidades, existem multiplos relacionamentos dentro dele, diferente das listas ligadas por exemplo.
+
+
+	
+	

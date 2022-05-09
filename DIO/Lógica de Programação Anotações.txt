@@ -1,0 +1,146 @@
+Lógica de Programação - DIO
+
+RoadMap Solução de Problemas
+
+Programar - Resolver Problemas
+
+Lógica = Coerencia de Raciocinio de Ideias / Sequencia coerente, regular e necessária de acontecimentos, coisas.
+
+Contextualizar a lógica na programação de computadores. (Algoritmo)
+
+Metacognição = Pensar como você pensa.
+
+Abastração = Habilidade de concentrar nos aspectos essenciais de um contexto qualquer, ignorando caracteristicas menos importantes ou acidentais.
+
+Média das notas = 6,25
+
+ALGORITMOS E PSEUDOCODIGOS
+
+
+Algoritmo = Sequencia de passos para resolver um problema.
+
+Pseudocódigo = Forma Genérica de escrever um algoritmo utilizando uma linguagem simples. (Aprender a programar).
+
+INICIO DO DIA
+
+Acordar
+Desligar despertador
+Levantar
+Caminhar até o Banheiro
+Pegar pasta de dente
+Abrir pasta de dente
+Pegar escova de dente
+Colocar pasta na escova de dente
+Abrir a torneira
+Passar por alguns segundos a pasta na torneira
+Fechar torneira
+Escovar os dentes
+Colocar escova na pia
+Abrir torneira
+Pegar um pouco de agua com as mãos
+Colocar a agua na boca
+Fazer buchecho
+Jogar a agua da boca para a pia
+Pegar escova de dente
+Limpar escova de dente na agua
+Guardar escova de dente
+Fechar torneira
+Ir até a cozinha
+Ir até a mesa da cozinha
+Abrir embalegem com pães
+Pegar faca
+Pegar o pão
+Cortar o pão
+Pegar a manteiga na geladeira
+Abrir a manteiga
+Passar a manteiga no pão
+Pegar prato no armário
+Colocar pão no prato
+Pegar uma xicará de café no armário
+Colocar café na xicará
+Pegar prato com pão e xicará 
+Levar prato e xicará para meu quarto
+Colocar prato e xicará na minha mesa
+Pegar pão e comer
+Pegar xicará com café e tomar
+Levar prato e xicará na pia
+Ir para meu quarto
+Estudar programação
+Ir até a cozinha
+Pegar prato e copo no armário
+Colocar comida no prato e abrir a torneira
+Colocar o copo embaixo da torneira
+Levar copo e prato para o quarto 		
+Almoçar 
+Por copo e prato na pia
+Voltar para o quarto
+Estudar programação
+Jantar
+Escovar os dentes
+Ir dormir
+
+FIM DO DIA
+
+Fluxograma e variaveis / Constantes
+
+O que é um fluxograma
+Aprender sobre variaveis, constantes e tipos de dados
+
+FLUXOGRAMAS = Ferramenta utilizada para representar graficamente o algoritmo / Tipo de diagrama que pode ser entendido como uma representação esqurmatica de um projeto
+
+VARIAVEL = Espaço na memória de um computador destinada a um dado que é alterado durante a execução de um algoritmo
+
+Tipos de variaveis
+
+Numéricas
+Caracteres
+Alfanuméricas (Letra e numeros) Nome por ex
+Lógico (Verdadeira ou falsa)
+
+TOMADAS DE DECISÕES E EXPRESSÕES
+
+EXPRESSÕES ARITMÉTCAS = São expressões que utilizam operadores aritméticos e funções aritméticas envolvendo constante e variaveis
+Ex : 50 + 50
+total + 50
+
+OPERADORES ARITMÉTICOS = soma, subtração, multiplicação, divisão, potenciação, porcentagem
+
+EXPRESSÕES LITERAIS = São expressões com contantes e variaveis que tem como resultado valores literais
+Utilizadas para atribuir valores a uma variavel ou constante.
+Ex : nome = "José"
+nome < "José"
+media = (n1+n2+n3+n4)/4
+
+OPERADORES RELACIONAIS : São expressões compostas por outras expressões ou variaveis numericas com operadores relacionais. As expressões relacionais retornam valores lógicos (verdadeiro/falso)
+>
+>=
+<=
+<
+==
+!=
+
+TOMADAS DE DECISÃO
+
+CONCATENAÇÃO = Termo usado na computação para designar a operação de unir o conteudo de duas strings
+
+STRING = Sequencia de caracteres
+
+ESTRUTURAS DE REPETIÇÃO
+
+Estrutura que permite executar um comando ou um conjunto de comando repetidamente de acordo com o contador ou uma condição.
+
+LINGUAGEM DE PROGRAMAÇÃO
+
+É uma linguagem escrita e formal que especifica um conjunto de instrunções e regras usadas para gerar programas. Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou qualquer equipamento que permita sua execução.
+A função da linguagem de programação é servir de meio de comunicação entre computadores e humanos.
+Alto nivel = São aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distancia da linguagem de maquina
+Baixo nivel = E aquela que se aproxima da linguagem de maquina. Essas são as que você precisa ter o conhecimento direto da arquitetura do computador para fazer algo.
+
+Compiladas = O código fonte é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processor chamado compilação. ex: C Sharp, C++, Assemble
+Interpretadas = Codigo fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador. ex: javaScript, PHP, Pyton
+
+MATRIZ = Coleção de variáveis do mesmo tipo, acessíveis com um único nome e armazenadas na memória
+
+A individualização de cada variável de um vetor ém feita através do uso de indices.
+
+VETORES = Matrizes de uma só dimensão.

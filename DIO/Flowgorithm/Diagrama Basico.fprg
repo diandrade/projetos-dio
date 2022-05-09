@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="conta"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-06 09:25:07 "/>
+        <attribute name="created" value="Y29udGE7TEFQVE9QLUc2NVVVNkpMOzIwMjEtMTAtMDY7IjA4OjQwOjE1ICI7Mjc3OQ=="/>
+        <attribute name="edited" value="Y29udGE7TEFQVE9QLUc2NVVVNkpMOzIwMjEtMTAtMDY7IjA5OjI1OjA3ICI7MTsyODky"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, media, total" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <input variable="n4"/>
+            <assign variable="total" expression="n1+n2+n3+n4"/>
+            <assign variable="media" expression="total/4"/>
+            <output expression="media" newline="True"/>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

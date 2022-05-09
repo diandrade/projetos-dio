@@ -1,0 +1,83 @@
+# GIT GITHUB
+
+## Versionamento de código
+
+Controle de Versão;
+Armazenamento em Nuvem;
+Trabalho em Equipe;
+Melhorar o seu código;
+Reconhecimento;
+
+CLI Command Line Interface = É utilizado através de comando realizados pelo CMD.
+CGI Graphic User Interface = Possui uma interface gráfica capaz de realizar as coisas deforma prática.
+
+Mudar de Pasta 
+Listar a Pasta 
+Criar Pasta/Arquivos 
+Deletar Pasta/Arquivos  
+
+dir = Utilizado para mostrar e listar as pastas dentro da pasta selecionadas.
+cd = Utilizado para navegar pelas pastas.
+cls = Utilizado para limpar a tela.
+cd .. = Utilizado para voltar para a pasta selecionada anteriormente
+mkdir = Utilizado para criar um diretório (pasta)
+del = Utilizado para excluir os arquivos dentro desse diretório
+rmdir = Utilizado para excluir o diretório
+
+### GIT POR BAIXO DOS PANOS
+
+SHA1 = Significa Secure Hash Algorithm, é um conjunto de funções hash criptográficas projetadas pela agencia nacional de segurança dos Estados Unidos.
+É uma forma curta de representar um estado de um arquivo, é seguro e prático de ser utilizado.
+Objetos Fundamentais
+Sistema Distribuído
+Segurança
+
+### Objetos Internos do GIT
+
+**BLOBS** = Estrutura básica que possui o sha1 (identificação) dentro dele
+**TREES** = Armazenam Bloobs, responsável por localizar a estrutura desses arquivos, e de outras trees também, também existe um sha1 dentro dessas trees
+**COMITS** = Junta tudo, dá sentido para a alteração sendo feita, aponta para as trees, para o autor e para a mensagem também.
+Também possuem um sha1 (identificação)
+
+### Chaves SSH e Tokens
+
+Forma de estabelecer uma conexão segura entre duas maquinas, sempre haverá uma chave publica e uma privada, e a publica será colocada no github, que saberá sobre as informações da maquina.
+$ ssh-keygen -t ed25519 -C contato.andradediego@gmail.com
+
+**Token de Acesso:** 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
+
+### PRIMEIROS COMANDOS GIT
+
+git init : Comando utilizado para iniciar o versionamento de código dentro de uma pasta.
+git add :
+git commit :
+
+ls -a : Utilizado para observar arquivos ocultos dentro de determinada pasta, como o .git por exemplo.
+
+
+
+### Ciclo de Vida dos Arquivos dentro do GIT
+
+git init : Cria um repositório
+
+
+
+Tracked : O Git sabe que esse arquivo existe. É possível tornar um arquivo untracked para tracked através do git init, que inicia o repositório desse arquivo.
+
+​	Modified : O arquivo chegou a ser modificado.
+
+​	Unmodified : O arquivo ainda não foi modificado.
+
+​		Caso o arquivo não modificado seja removido, ele volta a se tornar untracked.
+
+​	Staged : O arquivo está sendo modificado pela segunda vez, se tornando pronto para passar para o próximo estágio.
+
+Untracked : O GIT ainda não percebeu a presença do arquivo.
+
+Após passar do estágio staged, é criado um commit com as novas alterações, e os arquivos voltam a ser untracked novamente.
+
+
+
+Ambiente de Desenvolvimento: Working Directory, Staging Area, Local Repository
+
+Servidor: Remote Repository
